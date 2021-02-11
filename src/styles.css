@@ -6,7 +6,7 @@
   
   html, body {
     
-    background: white;
+    background:bisque;
     margin: 20px;
     color: #3e4144;
     -webkit-font-smoothing: antialiased;
@@ -38,4 +38,15 @@
   
   .p-1 {
     padding: 1px;
+  }
+  .row{
+    display: flex;
+  }
+  .col{
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  input{
+    display: block;
+    margin: 5px;
   }
